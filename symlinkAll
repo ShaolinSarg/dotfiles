@@ -1,0 +1,16 @@
+echo "###############################################"
+echo "Symlinking dotfiles to version controlled files"
+echo "###############################################"
+
+################################################################################
+# Development
+########################################
+
+# Spacemacs
+ln -sf `pwd`/spacemacs/.spacemacs $HOME/.spacemacs
+echo "simlinked Spacemacs configuration"
+
+# Lein
+ln -sf `pwd`/lein/profiles.clj $HOME/.lein/profiles.clj
+echo "simlinked Lein profiles..."
+
