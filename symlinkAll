@@ -14,3 +14,10 @@ echo "simlinked Spacemacs configuration"
 ln -sf `pwd`/lein/profiles.clj $HOME/.lein/profiles.clj
 echo "simlinked Lein profiles..."
 
+# ispell dictionary
+ln -sf `pwd`/.ispell_english $HOME/.ispell_english
+echo "simlinked ispell Dictionary"
+
+# Vim config
+ln -sf `pwd`/.vimrc $HOME/.vimrc
+echo "simlinked Vim config"
