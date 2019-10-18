@@ -6,6 +6,10 @@ echo "###############################################"
 # Development
 ########################################
 
+# oh my zsh
+ln -sf `pwd`/zsh/.zshrc $HOME/.zshrc
+echo "simlinked oh-my-zsh configuration"
+
 # Spacemacs
 ln -sf `pwd`/spacemacs/.spacemacs $HOME/.spacemacs
 echo "simlinked Spacemacs configuration"
