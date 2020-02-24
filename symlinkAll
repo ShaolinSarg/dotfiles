@@ -10,6 +10,10 @@ echo "###############################################"
 ln -sf `pwd`/zsh/.zshrc $HOME/.zshrc
 echo "simlinked oh-my-zsh configuration"
 
+# tmux
+ln -sf `pwd`/.tmux.conf $HOME/.tmux.conf
+echo "simlinked tmux configuration"
+
 # Spacemacs
 ln -sf `pwd`/spacemacs/.spacemacs $HOME/.spacemacs
 echo "simlinked Spacemacs configuration"

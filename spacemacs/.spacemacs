@@ -59,7 +59,6 @@ This function should only modify configuration layer settings."
               evil-move-beyond-eol t
               clojure-enable-clj-refactor t
               flycheck-mode t)
-     clj-kondo-lint
      html
      javascript
      docker
