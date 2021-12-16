@@ -105,3 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/sbin:$PATH"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/davidsarginson/.sdkman"
+[[ -s "/Users/davidsarginson/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/davidsarginson/.sdkman/bin/sdkman-init.sh"
