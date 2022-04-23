@@ -31,7 +31,7 @@ ln -sf `pwd`/.vimrc $HOME/.vimrc
 echo "simlinked Vim config"
 
 # Git config
-ln -sf `pwd`/.gitconfig $HOME/git/.gitconfig
+ln -sf `pwd`/.gitconfig $HOME/.gitconfig
 echo "simlinked git config"
 
 

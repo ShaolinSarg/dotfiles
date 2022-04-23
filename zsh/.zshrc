@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/davidsarginson/.oh-my-zsh"
+export ZSH="/Users/david.sarginson/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -73,7 +73,7 @@ plugins=(
 	git
 	docker
 	docker-compose
-	osx
+	macos
 	iterm2
 )
 
@@ -107,5 +107,5 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/sbin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="/Users/davidsarginson/.sdkman"
-[[ -s "/Users/davidsarginson/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/davidsarginson/.sdkman/bin/sdkman-init.sh"
+export SDKMAN_DIR="/Users/david.sarginson/.sdkman"
+[[ -s "/Users/david.sarginson/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/david.sarginson/.sdkman/bin/sdkman-init.sh"
